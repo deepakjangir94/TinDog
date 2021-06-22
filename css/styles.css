@@ -1,0 +1,198 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* container */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding-bottom: 50px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* titlesection */
+
+#title .container-fluid{
+  padding: 5% 15% 7%;
+  text-align: left;
+}
+
+/* title image */
+
+.title-image{
+  width: 280px;
+  transform: rotate(22deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* features */
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#features{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  }
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.card-header{
+  font-weight: 700;
+}
+
+.membership {
+  font-weight: 700;
+}
+
+/* call of action */
+
+/* footer */
+
+#footer{
+  color: #8f8f8f;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+/* media query */
+
+/* title image */
+
+@media (max-width: 992px) {
+  .title-image{
+    width: 280px;
+    transform: rotate(0deg);
+    position: static;
+    right: 20%;
+    text-align: center;
+  }
+
+  #title{
+    background-color: #ff4c68;
+    text-align: center;
+  }
+}
